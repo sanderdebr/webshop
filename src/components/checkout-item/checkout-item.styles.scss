@@ -17,13 +17,20 @@
       }
     }
     .name,
-    .quantity,
-    .price {
+    .price,
+    .quantity {
       width: 23%;
     }
   
     .quantity {
-      padding-left: 20px;
+      width: 23%;
+      display: flex;
+      .arrow {
+        cursor: pointer;
+      }
+      .value {
+        margin: 0 10px;
+      }
     }
   
     .remove-button {
